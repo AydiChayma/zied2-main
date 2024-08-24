@@ -1,0 +1,2359 @@
+.landingPage {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header {
+    position: fixed;
+    background-color: #ff66b2;
+    align-self: stretch;
+    z-index: 10;
+    display: flex;
+    margin-top: -29px;
+    width: 95.9%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 22px;
+    height: 100px;
+
+}
+
+@media (max-width: 991px) {
+    .header {
+        max-width: 100%;
+        padding-right: 20px;
+    }
+}
+
+.img {
+    aspect-ratio: 3.39;
+    object-fit: contain;
+    object-position: center;
+    width: 200px;
+    max-width: 100%;
+    margin-top: -43px;
+}
+
+.div {
+    display: flex;
+    gap: 20px 23px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .div {
+        max-width: 100%;
+    }
+}
+
+.div2 {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 400 32px Jua, sans-serif;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+@media (max-width: 991px) {
+    .div2 {
+        max-width: 100%;
+    }
+}
+
+.home {
+    background-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: stretch;
+    background-color: rgba(217, 217, 217, 0);
+    min-height: 105px;
+    gap: 10px;
+    white-space: nowrap;
+    padding: 33px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .home {
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+.aboutUs {
+    background-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: stretch;
+    background-color: rgba(217, 217, 217, 0);
+    min-height: 105px;
+    gap: 10px;
+    padding: 33px 10px;
+    cursor: pointer;
+}
+
+.ourClub {
+    background-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: stretch;
+    background-color: rgba(217, 217, 217, 0);
+    min-height: 103px;
+    gap: 10px;
+    color: rgba(251, 251, 251, 1);
+    padding: 32px 13px 32px 14px;
+    cursor: pointer;
+}
+
+.gallery {
+    background-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: stretch;
+    background-color: rgba(217, 217, 217, 0);
+    min-height: 105px;
+    gap: 10px;
+    white-space: nowrap;
+    padding: 33px 26px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .gallery {
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+.contact {
+    background-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: stretch;
+    background-color: rgba(217, 217, 217, 0);
+    min-height: 105px;
+    gap: 10px;
+    white-space: nowrap;
+    padding: 33px 19px 33px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        white-space: initial;
+    }
+}
+
+.div3 {
+    display: flex;
+    gap: 18px;
+    margin: auto 0;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.img2 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 35px;
+    cursor: pointer;
+}
+
+.img3 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 35px;
+    cursor: pointer;
+}
+
+.div4 {
+    align-self: end;
+    display: flex;
+    margin-top: 94px;
+    width: 100%;
+    max-width: 1411px;
+    flex-direction: column;
+}
+
+@media (max-width: 991px) {
+    .div4 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .div5 {
+        max-width: 100%;
+    }
+}
+
+.div6 {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .div6 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.div7 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin: auto 0;
+    margin-top: 300px;
+}
+
+@media (max-width: 991px) {
+    .div7 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.welcomeToSciKids {
+
+    -webkit-text-stroke: 100% white;
+    /* Stroke size and color */
+    font-size: 36px;
+    /* Adjust font size as needed */
+    text-shadow:
+        1px 1px 0 white,
+        -1px -1px 0 white,
+        2px -2px 0 white,
+        -2px 2px 0 white,
+        2px 0 0 white,
+        -2px 0 0 white,
+        0 2px 0 white,
+        0 -2px 0 white;
+
+    color: rgba(74, 163, 223, 1);
+    letter-spacing: 2.88Px;
+    margin-right: 866 px;
+    width: 500;
+    margin-left: 101px;
+    margin-top: -200px;
+    font: 1000 86px Righteous;
+
+}
+
+@media (max-width: 600px) {
+    .welcomeToSciKids {
+        display: flex;
+        max-width: 100%;
+        margin-right: 50px;
+        font-size: 40px;
+    }
+}
+
+.div8 {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, regular;
+    padding: 0 2px;
+}
+
+@media (max-width: 991px) {
+    .div8 {
+        max-width: 100%;
+    }
+}
+
+.loremIpsumDolorSitAmetConsectetuerAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMag {
+    color: #550964;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 866 px;
+    width: 450px;
+    margin-top: -20px;
+    margin-left: 101px;
+    font: poppins;
+
+}
+
+@media (max-width: 991px) {
+    .loremIpsumDolorSitAmetConsectetuerAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMag {
+        max-width: 100%;
+    }
+}
+
+.joinNow {
+    align-self: start;
+    border: 4px solid #9C29B2;
+    border-radius: 20px;
+    background-color: rgba(74, 163, 223, 1);
+    margin-top: 44px;
+    min-height: 25px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    padding: 6px 30px;
+    padding-bottom: 10px;
+    margin-right: 1170 px;
+    width: 110px;
+    margin-left: 101px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 991px) {
+    .joinNow {
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .column2 {
+        width: 100%;
+    }
+}
+
+.img4 {
+    aspect-ratio: 0.87;
+    object-fit: contain;
+    object-position: right;
+    width: 90%;
+    margin-left: 115px;
+
+}
+
+@media (max-width: 10px) {
+    .img4 {
+        max-width: 10px;
+        margin-top: 30px;
+    }
+}
+
+.div9 {
+    align-self: end;
+    display: flex;
+    margin-right: 66px;
+    width: 100%;
+    max-width: 1164px;
+    align-items: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .div9 {
+        max-width: 100%;
+        margin-right: 10px;
+    }
+}
+
+.div10 {
+    background-color: rgba(74, 163, 223, 1);
+    border-radius: 50%;
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+
+.img5 {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 79px;
+    margin-top: 9px;
+
+}
+
+.div11 {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 45px;
+}
+
+@media (max-width: 991px) {
+    .div11 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.div12 {
+    display: flex;
+    width: 100%;
+    max-width: 1162px;
+    gap: 20px 74px;
+    color: rgba(90, 215, 143, 1);
+    text-align: center;
+    flex-wrap: wrap;
+    font: 400 48px Righteous, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div12 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.img6 {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 79px;
+}
+
+.discoverOurSciKidsTechnologyHubFamily {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+    margin-right: -115px;
+    color: #5AD78F;
+    font: 800 48px 'righteous';
+    -webkit-text-stroke: 100% #C8F9DD;
+    /* Stroke size and color */
+    text-shadow:
+        3px 3px 0 #C8F9DD,
+        -3px -3px 0 #C8F9DD,
+        4px -4px 0 #C8F9DD,
+        -4px 4px 0 #C8F9DD,
+        4px 4px 4px #C8F9DD,
+        -4px 4px 4px #C8F9DD,
+        0 2px 0 #C8F9DD,
+        0 -2px 0 #C8F9DD;
+
+}
+
+@media (max-width: 991px) {
+    .discoverOurSciKidsTechnologyHubFamily {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.div13 {
+    display: flex;
+    margin-top: 69px;
+    width: 100%;
+    gap: 20px 95px;
+    color: rgba(0, 0, 0, 1);
+    flex-wrap: wrap;
+    font: 400 48px Righteous, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div13 {
+        max-width: 100%;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+}
+
+.div14 {
+    background-color: rgba(74, 163, 223, 1);
+    border-radius: 50%;
+    align-self: end;
+    display: flex;
+    margin-top: 301px;
+    width: 35px;
+    height: 35px;
+    margin-right: 0px;
+}
+
+@media (max-width: 991px) {
+    .div14 {
+        margin-top: 40px;
+    }
+}
+
+.div15 {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: auto;
+    object-position: center;
+    height: 385px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+    .div15 {
+        font-size: 40px;
+
+    }
+}
+
+.sciKidsTechnologyHubIsAnInnovativeCompanyInTheEducationSectorItsMissionIsToPromoteTechnologicalAerospaceAndEntrepreneurialCultureAmongChildrenAndTheirParentsThroughAfterSchoolClubsHandsOnWorkshopsEventsDedicatedToEducatorsChildrenAndTheirParentsThisCompanyIsPartOfTheTechInventorsGroup {
+    align-self: start;
+    flex-grow: 1;
+    flex-basis: auto;
+    color: #416FA8;
+    width: 25%;
+    margin-right: 50px;
+
+}
+
+@media (max-width: 991px) {
+    .sciKidsTechnologyHubIsAnInnovativeCompanyInTheEducationSectorItsMissionIsToPromoteTechnologicalAerospaceAndEntrepreneurialCultureAmongChildrenAndTheirParentsThroughAfterSchoolClubsHandsOnWorkshopsEventsDedicatedToEducatorsChildrenAndTheirParentsThisCompanyIsPartOfTheTechInventorsGroup {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.img7 {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 79px;
+    align-self: end;
+    margin-top: 261px;
+}
+
+@media (max-width: 991px) {
+    .img7 {
+        margin-top: 40px;
+    }
+}
+
+.div16 {
+    align-self: center;
+    display: flex;
+    margin-top: 42px;
+    width: 586px;
+    max-width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .div16 {
+        margin-top: 40px;
+    }
+}
+
+.img8 {
+    aspect-ratio: 1.05;
+    object-fit: contain;
+    object-position: center;
+    width: 79px;
+}
+
+.div17 {
+    background-color: rgba(74, 163, 223, 1);
+    border-radius: 50%;
+    align-self: end;
+    display: flex;
+    margin-top: 37px;
+    width: 35px;
+    height: 35px;
+}
+
+.div18 {
+    background-color: rgba(255, 102, 178, 1);
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    .div18 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.img9 {
+    aspect-ratio: 9.26;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+
+    margin-top: -66px;
+}
+
+@media (max-width: 991px) {
+    .img9 {
+        max-width: 100%;
+    }
+}
+
+.onGoingClasses {
+    letter-spacing: 0.96Px;
+    margin-top: 39px;
+    font: 1000 36px Righteous;
+    color: #9C29B2;
+    /* Main text color */
+    -webkit-text-stroke: 100% white;
+    /* Stroke size and color */
+    font-size: 36px;
+    /* Adjust font size as needed */
+    text-shadow:
+        1px 1px 0 white,
+        -1px -1px 0 white,
+        2px -2px 0 white,
+        -2px 2px 0 white,
+        2px 0 0 white,
+        -2px 0 0 white,
+        0 2px 0 white,
+        0 -2px 0 white;
+
+}
+
+.takeTheClassesStartLearningFromToday {
+    color: #fff;
+    letter-spacing: 1.08Px;
+    text-align: center;
+    margin-top: 18px;
+    font: 400 36px Righteous, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .takeTheClassesStartLearningFromToday {
+        max-width: 100%;
+    }
+}
+
+.div19 {
+    margin-top: 101px;
+    width: 100%;
+    max-width: 1080px;
+}
+
+@media (max-width: 991px) {
+    .div19 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.div20 {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .div20 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .column3 {
+        width: 100%;
+    }
+}
+
+.div21 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    max-width: 295px;
+    border: 4px solid rgba(255, 201, 9, 1);
+}
+
+@media (max-width: 991px) {
+    .div21 {
+        margin-top: 40px;
+    }
+}
+
+.img10 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div22 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .div22 {
+        margin-left: 2px;
+    }
+}
+
+.roboticsDiyClub {
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    letter-spacing: 0.54Px;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: auto 0;
+}
+
+.amin {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(69, 161, 108, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 37px;
+    height: 37px;
+    padding: 7px;
+    border: 3px solid rgba(255, 102, 178, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .amin {
+        white-space: initial;
+    }
+}
+
+.theRoboticsAndDiyClubBringsEnthusiastsTogetherToCreateAndProgramRobotsAndDiyProjects {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    letter-spacing: 0.42Px;
+    margin-top: 7px;
+    width: 90%;
+}
+
+.age618Years {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.readMore {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 17px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .readMore {
+        padding: 0 20px;
+    }
+}
+
+.column4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column4 {
+        width: 100%;
+    }
+}
+
+.div23 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    max-width: 295px;
+    border: 4px solid rgba(255, 201, 9, 1);
+    height: 440px;
+}
+
+@media (max-width: 991px) {
+    .div23 {
+        margin-top: 40px;
+    }
+}
+
+.img11 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+    .img11 {
+        margin-left: 2px;
+    }
+}
+
+.div24 {
+    display: flex;
+    gap: 7px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aviationPilotingClub {
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    letter-spacing: 0.51Px;
+    flex-grow: 1;
+    margin: auto 0;
+    margin-top: 20px;
+}
+
+.zied {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(69, 161, 108, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 37px;
+    height: 37px;
+    padding: 7px;
+    border: 3px solid rgba(255, 102, 178, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+    .zied {
+        white-space: initial;
+    }
+}
+
+.theAviationPilotingClubBringsEnthusiastsTogetherToExploreAndPracticeFlyingAndAviation {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    letter-spacing: 0.42Px;
+    margin-top: 7px;
+    width: 90%;
+}
+
+@media (max-width: 991px) {
+    .theAviationPilotingClubBringsEnthusiastsTogetherToExploreAndPracticeFlyingAndAviation {
+        margin-left: 2px;
+    }
+}
+
+.age1218Years {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 11px;
+}
+
+.readMore2 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 15px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .readMore2 {
+        margin-left: 2px;
+        padding: 0 20px;
+    }
+}
+
+.column5 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column5 {
+        width: 100%;
+    }
+}
+
+.div25 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    max-width: 295px;
+    border: 4px solid rgba(255, 201, 9, 1);
+    height: 440px;
+}
+
+@media (max-width: 991px) {
+    .div25 {
+        margin-top: 40px;
+    }
+}
+
+.div26 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-weight: 400;
+    padding: 0 15px;
+    margin-left: -15px;
+}
+
+.img12 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div27 {
+    display: flex;
+    margin-top: 6px;
+    gap: 4px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.clubSoftwareAlgorithm {
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    letter-spacing: 0.48Px;
+    flex-grow: 1;
+    margin: auto 0;
+}
+
+.oussema {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(69, 161, 108, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 37px;
+    height: 37px;
+    padding: 7px;
+    border: 3px solid rgba(255, 102, 178, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 991px) {
+    .oussema {
+        white-space: initial;
+    }
+}
+
+.theSoftwareAlgorithmClubExploresAlgorithmsAndProgramming {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    letter-spacing: 0.42Px;
+    margin-top: 27px;
+    width: 90%;
+}
+
+.age618Years2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 7px;
+}
+
+.readMore3 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 17px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .readMore3 {
+        margin: 0 10px;
+        padding: 0 20px;
+    }
+}
+
+.div28 {
+    margin-top: 89px;
+    width: 100%;
+    max-width: 1095px;
+}
+
+@media (max-width: 991px) {
+    .div28 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.div29 {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .div29 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.column6 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .column6 {
+        width: 100%;
+    }
+}
+
+.div30 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    max-width: 295px;
+    border: 4px solid rgba(255, 201, 9, 1);
+    height: 440px;
+}
+
+@media (max-width: 991px) {
+    .div30 {
+        margin-top: 40px;
+    }
+}
+
+.img13 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div31 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.debateClub {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54Px;
+    margin: auto 0;
+}
+
+.zayneb {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(69, 161, 108, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 37px;
+    height: 37px;
+    padding: 7px;
+    border: 3px solid rgba(255, 102, 178, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 991px) {
+    .zayneb {
+        white-space: initial;
+    }
+}
+
+.theDebateClubOffersASpaceToDiscussArgueAndExchangeIdeasOnVariousTopics {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    letter-spacing: 0.42Px;
+    margin-top: 7px;
+    width: 90%;
+}
+
+.age618Years3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 11px;
+}
+
+.readMore4 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 14px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .readMore4 {
+        padding: 0 20px;
+    }
+}
+
+.column7 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column7 {
+        width: 100%;
+    }
+}
+
+.div32 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    max-width: 295px;
+    border: 4px solid rgba(255, 201, 9, 1);
+    height: 440px;
+}
+
+@media (max-width: 991px) {
+    .div32 {
+        margin-top: 40px;
+    }
+}
+
+.img14 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div33 {
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.kidspreneurClub {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    letter-spacing: 0.54Px;
+    margin: auto 0;
+}
+
+.firas {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(69, 161, 108, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 37px;
+    height: 37px;
+    padding: 7px;
+    border: 3px solid rgba(255, 102, 178, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 991px) {
+    .firas {
+        white-space: initial;
+    }
+}
+
+.theKidspreneurClubInspiresYoungEntrepreneursToDevelopTheirIdeasAndCreateInnovativeProjects {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    letter-spacing: 0.42Px;
+    margin-top: 7px;
+    width: 90%;
+}
+
+.age618Years4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.readMore5 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 15px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .readMore5 {
+        padding: 0 20px;
+    }
+}
+
+.column8 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column8 {
+        width: 100%;
+    }
+}
+
+.div34 {
+    border-radius: 12px;
+    background-color: rgba(74, 163, 223, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 17px 15px;
+    max-width: 295px;
+    border: 4px solid rgba(255, 201, 9, 1);
+    height: 440px;
+}
+
+@media (max-width: 991px) {
+    .div34 {
+        margin-top: 40px;
+    }
+}
+
+.img15 {
+    aspect-ratio: 1.43;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.div35 {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.multimediaClubContentCreation {
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    letter-spacing: 0.54Px;
+    margin-top: 20px;
+}
+
+.hadir {
+    background-color: rgba(255, 201, 9, 1);
+    border-radius: 50%;
+    font-size: 13px;
+    color: rgba(69, 161, 108, 1);
+    white-space: nowrap;
+    letter-spacing: 0.39px;
+    width: 37px;
+    height: 37px;
+    padding: 7px;
+    border: 3px solid rgba(255, 102, 178, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+    .hadir {
+        white-space: initial;
+    }
+}
+
+.theMultimediaContentCreationClubExploresVideoPhotoAndDigitalMediaProduction {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    letter-spacing: 0.42Px;
+    margin-top: 7px;
+    width: 90%;
+}
+
+.age618Years5 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    letter-spacing: 0.42Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.readMore6 {
+    align-self: stretch;
+    background-color: rgba(255, 201, 9, 1);
+    margin-top: 17px;
+    gap: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    color: rgba(69, 161, 108, 1);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.48Px;
+    padding: 7px 85px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .readMore6 {
+        padding: 0 20px;
+    }
+}
+
+.img16 {
+    aspect-ratio: 9.26;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+    margin: 45px 0 -68px;
+}
+
+@media (max-width: 991px) {
+    .img16 {
+        max-width: 100%;
+        margin: 40px 0 10px;
+    }
+}
+
+.div36 {
+    display: flex;
+    margin-top: 549px;
+    width: 100%;
+    padding-bottom: 190px;
+    flex-direction: column;
+}
+
+@media (max-width: 991px) {
+    .div36 {
+        max-width: 100%;
+        margin-top: 40px;
+        padding-bottom: 100px;
+    }
+}
+
+.div37 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: -499px 0 -38px;
+    padding: 48px 62px 244px;
+}
+
+@media (max-width: 991px) {
+    .div37 {
+        max-width: 100%;
+        margin: -200px 0 10px;
+        padding: 0 20px 100px;
+    }
+}
+
+.gallery2 {
+    color: #9C29B2;
+    letter-spacing: 0.96Px;
+    text-align: center;
+    align-self: center;
+    font: 400 32px mixed, sans-serif;
+}
+
+.whatWeDoInPictures {
+    color: #2ECC71;
+    letter-spacing: 1.08Px;
+    text-align: center;
+    align-self: center;
+    margin-top: 5px;
+    font: 400 36px mixed, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .whatWeDoInPictures {
+        max-width: 100%;
+    }
+}
+
+.div38 {
+    display: flex;
+    margin-top: 13px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+    .div38 {
+        max-width: 100%;
+    }
+}
+
+.img17 {
+    aspect-ratio: 1.01;
+    object-fit: contain;
+    object-position: center;
+    width: 181px;
+    align-self: start;
+    margin-top: 13px;
+    max-width: 100%;
+}
+
+.img18 {
+    aspect-ratio: 1.18;
+    object-fit: contain;
+    object-position: center;
+    width: 228px;
+    max-width: 100%;
+    margin-right: 90px;
+}
+
+.div39 {
+    margin: 55px 45px 0 44px;
+}
+
+@media (max-width: 991px) {
+    .div39 {
+        max-width: 100%;
+        margin: 40px 10px 0 0;
+    }
+}
+
+.div40 {
+    gap: 20px;
+    display: flex;
+    width: 90%;
+    margin-left: 30px;
+}
+
+@media (max-width: 991px) {
+    .div40 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.column9 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .column9 {
+        width: 100%;
+    }
+}
+
+.img19 {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .img19 {
+        margin-top: 40px;
+    }
+}
+
+.column10 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column10 {
+        width: 100%;
+    }
+}
+
+.img20 {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .img20 {
+        margin-top: 40px;
+    }
+}
+
+.column11 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column11 {
+        width: 100%;
+    }
+}
+
+.img21 {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .img21 {
+        margin-top: 40px;
+    }
+}
+
+.div41 {
+    margin: 77px 45px -49px 44px;
+    gap: 20px;
+    display: flex;
+    width: 85%;
+    margin-left: 70px;
+
+}
+
+@media (max-width: 991px) {
+    .div41 {
+        max-width: 100%;
+        margin: 40px 10px 10px 0;
+    }
+}
+
+.div42 {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .div42 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.column12 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .column12 {
+        width: 100%;
+    }
+}
+
+.img22 {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .img22 {
+        margin-top: 40px;
+    }
+}
+
+.column13 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column13 {
+        width: 100%;
+    }
+}
+
+.img23 {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .img23 {
+        margin-top: 40px;
+    }
+}
+
+.column14 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 33%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column14 {
+        width: 100%;
+    }
+}
+
+.img24 {
+    aspect-ratio: 1.07;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .img24 {
+        margin-top: 40px;
+    }
+}
+
+.div43 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 953px;
+    width: 100%;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    padding: 88px 80px;
+}
+
+@media (max-width: 991px) {
+    .div43 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.img25 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -170px;
+}
+
+.div44 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1293px;
+    flex-direction: column;
+    margin-top: -500px;
+    margin-right: 160px;
+}
+
+@media (max-width: 991px) {
+    .div44 {
+        max-width: 100%;
+    }
+}
+
+.div45 {
+    display: flex;
+    margin-left: 46px;
+    width: 918px;
+    max-width: 100%;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: Righteous, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img26 {
+    aspect-ratio: 0.94;
+    object-fit: contain;
+    object-position: center;
+    width: 100px;
+    align-self: start;
+    max-width: 100%;
+}
+
+.div46 {
+    align-self: end;
+    display: flex;
+    margin-top: 34px;
+    flex-direction: column;
+    margin-right: -80px;
+}
+
+@media (max-width: 991px) {
+    .div46 {
+        max-width: 100%;
+    }
+}
+
+.getInTouch {
+    color: #F39C12;
+    font-size: 16px;
+    letter-spacing: 0.48Px;
+    align-self: center;
+    margin-right: 130px;
+}
+
+.needsHelpLetsGetInTouch {
+    color: rgba(85, 9, 100, 1);
+    font-family: righteous;
+    font-size: 42px;
+    letter-spacing: 1.26Px;
+    margin-top: 38px;
+    -webkit-text-stroke: 100% white;
+    /* Stroke size and color */
+    text-shadow:
+        1px 1px 0 white,
+        -1px -1px 0 white,
+        2px -2px 0 white,
+        -2px 2px 0 white,
+        2px 0 0 white,
+        -2px 0 0 white,
+        0 2px 0 white,
+        0 -2px 0 white;
+    margin-right: 100px;
+
+}
+
+@media (max-width: 991px) {
+    .needsHelpLetsGetInTouch {
+        max-width: 100%;
+    }
+}
+
+.div47 {
+    display: flex;
+    margin-top: 59px;
+    gap: 20px 23px;
+    font-size: 16px;
+    color: rgba(185, 185, 185, 1);
+    text-align: center;
+    letter-spacing: 0.48Px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .div47 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+input {
+    border: none;
+    background-color: rgba(241, 241, 241, 1);
+    flex-grow: 1;
+    width: fit-content;
+    padding: 30px 31px;
+    width: 70%;
+    border-radius: 20px;
+
+}
+
+.yourName {
+    width: 50%;
+    margin-left: -23px;
+}
+
+@media (max-width: 991px) {
+    .yourName {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.yourEmail {
+    width: 50%;
+
+}
+
+@media (max-width: 991px) {
+    .yourEmail {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.subject {
+    margin-top: 50px;
+    margin-left: 41px;
+    width: 125%;
+}
+
+@media (max-width: 991px) {
+    .subject {
+        max-width: 100%;
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+textarea {
+    border: none;
+    background-color: rgba(241, 241, 241, 1);
+    flex-grow: 1;
+    width: fit-content;
+    padding: 30px 31px;
+    border-radius: 20px;
+
+}
+
+.message {
+    margin-top: 50px;
+    margin-left: 41px;
+    width: 125%;
+}
+
+@media (max-width: 991px) {
+    .message {
+        max-width: 100%;
+        white-space: initial;
+        padding: 0 20px 110px;
+    }
+}
+
+.div48 {
+    align-self: end;
+    display: flex;
+    width: 730px;
+    max-width: 100%;
+    align-items: flex-start;
+    gap: 20px;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 36px 77px 0 0;
+    font: 20px Roboto, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div48 {
+        margin-right: 10px;
+        white-space: initial;
+    }
+}
+
+.submit {
+    align-self: start;
+    background-color: rgba(243, 156, 18, 1);
+    width: 220px;
+    min-height: 58px;
+    gap: 100px;
+    margin-left: 75px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .submit {
+        white-space: initial;
+    }
+}
+
+.img27 {
+    aspect-ratio: 0.93;
+    object-fit: contain;
+    object-position: center;
+    width: 67px;
+    align-self: end;
+    margin-top: 37px;
+}
+
+.div49 {
+    background-color: rgba(255, 201, 9, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 41px 48px;
+    margin-top: -170px;
+}
+
+@media (max-width: 991px) {
+    .div49 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.div50 {
+    display: flex;
+    width: 100%;
+    max-width: 1382px;
+    align-items: end;
+    gap: 20px 100px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+    .div50 {
+        max-width: 100%;
+    }
+}
+
+.div51 {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.img28 {
+    aspect-ratio: 3.39;
+    object-fit: contain;
+    object-position: center;
+    width: 220px;
+    max-width: 100%;
+}
+
+.div52 {
+    display: flex;
+    margin-top: 54px;
+    padding-left: 36px;
+    flex-direction: column;
+    align-items: start;
+}
+
+@media (max-width: 991px) {
+    .div52 {
+        padding-left: 20px;
+        margin-top: 40px;
+    }
+}
+
+.aboutCompany {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font: 22px Righteous, sans-serif;
+}
+
+.loremIpsumDolorSitAmetConsectetuerAdipiscingElitSedDoEiusmodTemporIncididuntUtLaboreEtDoloreMag2 {
+    color: rgba(115, 115, 115, 1);
+    margin-top: 28px;
+    font: 14px Poppins, sans-serif;
+    width: 190px;
+}
+
+.img29 {
+    aspect-ratio: 4.76;
+    object-fit: contain;
+    object-position: center;
+    width: 195px;
+    margin-top: 22px;
+    max-width: 100%;
+}
+
+.div53 {
+    display: flex;
+    margin-top: 118px;
+    flex-direction: column;
+    align-items: start;
+    color: rgba(115, 115, 115, 1);
+    font: 400 16px Roboto, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div53 {
+        margin-top: 40px;
+    }
+}
+
+.ourServices {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    align-self: stretch;
+    font: 22px Righteous, sans-serif;
+}
+
+.onlineClass {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+}
+
+.babyCare {
+    letter-spacing: 0.48Px;
+    margin-top: 23px;
+}
+
+.shop {
+    letter-spacing: 0.48Px;
+    margin-top: 20px;
+}
+
+.kids {
+    letter-spacing: 0.48Px;
+    margin-top: 21px;
+}
+
+.nurse {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+}
+
+.div54 {
+    margin-top: 118px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+@media (max-width: 991px) {
+    .div54 {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.div55 {
+    gap: 20px;
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    .div55 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.column15 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 26%;
+    margin-left: 0px;
+}
+
+@media (max-width: 991px) {
+    .column15 {
+        width: 100%;
+    }
+}
+
+.div56 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: rgba(115, 115, 115, 1);
+    font: 400 16px Roboto, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div56 {
+        margin-top: 40px;
+    }
+}
+
+.usefulLinks {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font: 22px Righteous, sans-serif;
+}
+
+.aboutUs2 {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+}
+
+.ourTeam {
+    letter-spacing: 0.48Px;
+    margin-top: 24px;
+}
+
+.privacyPolicy {
+    letter-spacing: 0.48Px;
+    margin-top: 23px;
+}
+
+.contactUs {
+    letter-spacing: 0.48Px;
+    margin-top: 20px;
+}
+
+.termsOfService {
+    letter-spacing: 0.48Px;
+    align-self: stretch;
+    margin-top: 19px;
+}
+
+.column16 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 74%;
+    margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+    .column16 {
+        width: 100%;
+    }
+}
+
+.div57 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    font: 400 14px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div57 {
+        margin-top: 40px;
+    }
+}
+
+.newsletter {
+    text-align: center;
+    align-self: start;
+    font: 22px Righteous, sans-serif;
+}
+
+.aplicationsBeforeFrontEndOrtalsVisualizeFrontEnd {
+    color: rgba(115, 115, 115, 1);
+    font-size: 16px;
+    letter-spacing: 0.48Px;
+    align-self: start;
+    margin-top: 28px;
+}
+
+.yourEmail2 {
+    background-color: white;
+    margin-top: 31px;
+    color: rgba(115, 115, 115, 1);
+    letter-spacing: 0.42Px;
+    padding: 16px 11px;
+}
+
+@media (max-width: 991px) {
+    .yourEmail2 {
+        padding-right: 20px;
+    }
+}
+
+.subscribe {
+    background-color: rgba(243, 156, 18, 1);
+    margin-top: 11px;
+    white-space: nowrap;
+    letter-spacing: 0.42Px;
+    padding: 16px 70px;
+}
+
+@media (max-width: 991px) {
+    .subscribe {
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+.div58 {
+    align-self: end;
+    margin-top: 32px;
+    width: 1379px;
+    max-width: 100%;
+    height: 1px;
+}
+
+.copyrightSciKidsTechnologyHubAllRightsReserved {
+    color: rgba(115, 115, 115, 1);
+    letter-spacing: 0.48Px;
+    align-self: center;
+    margin: 28px 0 0 27px;
+    font: 400 16px Poppins, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .copyrightSciKidsTechnologyHubAllRightsReserved {
+        max-width: 100%;
+    }
+}
+
+.backgroundDiv {
+    background-image: url("D:\zied2-main\zied2-main\src\images\Component1.png");
+    position: relative;
+    width: 100%;
+    margin-top: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 850px;
+}

@@ -1,0 +1,337 @@
+.loginContainer {
+    background: linear-gradient(135deg, #FFC909, #7FD461);
+    /* Couleur de fond ajustée pour correspondre à l'image */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 730px;
+
+}
+
+.loginContent {
+    display: flex;
+    width: 87%;
+
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    padding: 67px 65px;
+}
+
+@media (max-width: 991px) {
+    .loginContent {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.loginCard {
+    border-radius: 40px;
+    background-color: #fff;
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    max-height: 700px;
+
+    /* Ajusté pour ajouter de l'espace autour de la carte */
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-left: 40px;
+}
+
+@media (max-width: 991px) {
+    .loginCard {
+        padding-left: 20px;
+    }
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+@media (max-width: 991px) {
+    .logoContainer {
+        max-width: 100%;
+    }
+}
+
+.logo {
+    aspect-ratio: 3.39;
+    object-fit: contain;
+    object-position: center;
+    width: 250px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.formContainer {
+    display: flex;
+    margin-top: 28px;
+    width: 100%;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+@media (max-width: 991px) {
+    .formContainer {
+        max-width: 100%;
+        padding-left: 20px;
+    }
+}
+
+.welcomeText {
+    color: #ff66b2;
+    letter-spacing: 0.48px;
+    align-self: start;
+    font: 400 16px/1 Poppins, sans-serif;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+@media (max-width: 991px) {
+    .welcomeText {
+        margin-left: 5px;
+    }
+}
+
+.loginTitle {
+    color: #ff66b2;
+    align-self: start;
+    margin-top: 3px;
+    font: 600 48px Poppins, sans-serif;
+    margin-left: 40px;
+}
+
+@media (max-width: 991px) {
+    .loginTitle {
+        font-size: 40px;
+    }
+}
+
+.inputLabel {
+    color: #000;
+    align-self: start;
+    margin-top: 10px;
+    font: 300 16px Poppins, sans-serif;
+    margin-left: 40px;
+}
+
+@media (max-width: 991px) {
+    .inputLabel {
+        margin-top: 40px;
+    }
+}
+
+.inputField {
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: rgba(74, 163, 223, 0.6);
+    margin-top: 7px;
+    color: #000;
+    white-space: nowrap;
+    padding: 13px 11px;
+    width: 400px;
+    font: 400 14px Poppins, sans-serif;
+    margin-left: 40px;
+
+}
+
+@media (max-width: 991px) {
+    .inputField {
+        max-width: 100%;
+        padding-right: 20px;
+        white-space: initial;
+        margin-left: 40px;
+    }
+}
+
+.passwordContainer {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    font-family: Poppins, sans-serif;
+    color: #000;
+    font-weight: 300;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 991px) {
+    .passwordContainer {
+        max-width: 100%;
+        margin-right: 5px;
+    }
+}
+
+.passwordLabel {
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.forgotPassword {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 28px;
+    text-decoration: none;
+    color: #797979;
+}
+
+.passwordField {
+    border-radius: 4px;
+    background-color: rgba(74, 163, 223, 0.6);
+    display: flex;
+    margin-top: 5px;
+    gap: 20px;
+    color: #000;
+    justify-content: space-between;
+    padding: 13px 32px 13px 10px;
+    font: 400 14px Poppins, sans-serif;
+    margin-left: 40px;
+    width: 388px;
+
+}
+
+input[type="password"] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    width: 100%;
+    color: #000;
+    font: 400 14px Poppins, sans-serif;
+    outline: none;
+    /* Supprime la bordure par défaut */
+}
+
+@media (max-width: 991px) {
+    .passwordField {
+        max-width: 100%;
+        padding-right: 20px;
+        white-space: initial;
+    }
+}
+
+
+
+.loginButton {
+    border-radius: 23px;
+    border-color: transparent;
+    background-color: #ff66b2;
+    align-self: center;
+    display: flex;
+    width: 200px;
+    max-width: 100%;
+    gap: 16px;
+    color: #fff;
+    white-space: nowrap;
+    margin: 35px 0 0 35px;
+    padding: 8px 28px;
+    font: 600 16px Poppins, sans-serif;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .loginButton {
+        white-space: initial;
+        padding: 0 20px;
+    }
+}
+
+.loginIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+}
+
+.alternativeLogin {
+    color: #6096b4;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 28px;
+    font: 400 14px Nunito, sans-serif;
+}
+
+.socialLoginContainer {
+    align-self: center;
+    display: flex;
+    width: 100px;
+    max-width: 100%;
+    gap: 11px;
+    margin-right: 200px;
+}
+
+.socialLoginButton {
+    aspect-ratio: 2.5;
+    object-fit: contain;
+    object-position: center;
+    width: 125px;
+    border-radius: 40px;
+    max-width: 100%;
+}
+
+.signupPrompt {
+    align-self: center;
+    display: flex;
+    margin-top: 5px;
+    width: 280px;
+    max-width: 100%;
+    gap: 15px;
+    font: 400 14px Nunito, sans-serif;
+    padding-bottom: 10px;
+}
+
+.signupText {
+    color: #000;
+    flex-grow: 1;
+}
+
+.signupLink {
+    color: #d885a3;
+    margin-top: 13px;
+}
+
+.imageContainer {
+    border-radius: 40px;
+    background-color: rgba(139, 196, 235, 0.64);
+    display: flex;
+    /* Réduit le rembourrage supérieur */
+    flex-direction: column;
+    align-items: start;
+    width: 400px;
+    height: 100%;
+    /* Ajuster la largeur du conteneur */
+    max-width: 100%;
+    /* Centre le conteneur */
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .imageContainer {
+        max-width: 100%;
+        padding-top: 100px;
+    }
+}
+
+.heroImage {
+    aspect-ratio: 1.11;
+    object-fit: contain;
+    object-position: left;
+    width: 100%;
+    width: 620px;
+    z-index: 90;
+    margin-top: 180px;
+    margin-left: -220px;
+}
+
+@media (max-width: 991px) {
+    .heroImage {
+        max-width: 100%;
+    }
+}
