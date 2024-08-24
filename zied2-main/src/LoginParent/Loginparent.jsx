@@ -31,12 +31,30 @@ function Loginparent() {
                                 <span>SE CONNECTER</span>
                                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/341a431dc0c3386fbe612a883c480c68b40820449b2d2d831a927c6e1b3772de?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b" className={styles.loginIcon} alt="" />
                             </button>
-                            <p className={styles.alternativeLogin}>ou continuez avec</p>
-                            <div className={styles.socialLoginContainer}>
-                                {socialLoginButtons.map((button, index) => (
-                                    <SocialLoginButton key={index} src={button.src} alt={button.alt} />
-                                ))}
+                            <div className={styles.ou}>
+                                <hr className={styles.horizontalLine} />
+                                <p className={styles.alternativeLogin}>ou</p>
+                                <hr className={styles.horizontalLine} />
                             </div>
+                            <button className={styles.button}>
+                                <div className={styles.buttonContent}>
+                                    <div className={styles.iconWrapper}>
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/faae240c32391bc94caca88fa3d665d94c6c1331c9f6ce9f6b3459231a79eba2?placeholderIfAbsent=true&apiKey=875c657f39b24f02b57f3f224a6dff5b"
+                                            className={styles.iconBackground}
+                                            alt=""
+                                        />
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7d0310fed65b9eb3ee4a21a574feefe46385a72011c190957c88f25b162c2ce9?placeholderIfAbsent=true&apiKey=875c657f39b24f02b57f3f224a6dff5b"
+                                            className={styles.googleIcon}
+                                            alt="Google logo"
+                                        />
+                                    </div>
+                                    <span className={styles.buttonText}>Continuer avec Google</span>
+                                </div>
+                            </button>
                             <div className={styles.signupPrompt}>
                                 <p className={styles.signupText}>Vous n'avez pas encore de compte ?</p>
                                 <a href="#" className={styles.signupLink}>Inscrivez-vous gratuitement</a>

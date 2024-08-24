@@ -64,31 +64,31 @@ const Body = () => {
           <div className={styles.div15}>
             <div className={styles.sciKidsTechnologyHubIsAnInnovativeCompanyInTheEducationSectorItsMissionIsToPromoteTechnologicalAerospaceAndEntrepreneurialCultureAmongChildrenAndTheirParentsThroughAfterSchoolClubsHandsOnWorkshopsEventsDedicatedToEducatorsChildrenAndTheirParentsThisCompanyIsPartOfTheTechInventorsGroup}>
               <br />
-              <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '32px' }}>
+              <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '30px' }}>
 
                 Sci-Kids Technology Hub est une entreprise innovante dans le secteur de l'éducation. Sa mission est de promouvoir la culture technologique, aérospatiale et entrepreneuriale auprès des enfants et de leurs parents à travers :
               </span>
               <ul>
                 <li>
-                  <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '32px' }}>
+                  <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '30px' }}>
 
                     Clubs parascolaires
                   </span>
                 </li>
                 <li>
-                  <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '32px' }}>
+                  <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '30px' }}>
 
                     Ateliers pratiques
                   </span>
                 </li>
                 <li>
-                  <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '32px' }}>
+                  <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '30px' }}>
 
                     Événements dédiés aux éducateurs, aux enfants et à leurs parents
                   </span>
                 </li>
               </ul>
-              <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '32px' }}>
+              <span style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500, fontSize: '30px' }}>
 
                 Cette société fait partie du groupe TechInventors.
               </span>
@@ -144,8 +144,10 @@ const Body = () => {
                     className={styles.img10}
                   />
                   <div className={styles.div22}>
-                    <div className={styles.roboticsDiyClub}>Club Robotique <br />
-                      & Bricolage</div>
+                    <div className={styles.roboticsDiyClub}>
+                      Club Robotique<br />
+                      & Bricolage
+                    </div>
                     <div className={styles.amin}>45DT</div>
                   </div>
                   <div className={styles.theRoboticsAndDiyClubBringsEnthusiastsTogetherToCreateAndProgramRobotsAndDiyProjects}>
@@ -421,10 +423,10 @@ const Body = () => {
               </div>
             </div>
             <div className={styles.div47}>
-              <div className={styles.yourName}><input type="texte" placeholder=" Nom"></input></div>
-              <div className={styles.yourEmail}><input type="texte" placeholder="email"></input></div>
+              <div className={styles.yourName}><input type="texte" className={styles.input1} placeholder=" Nom" ></input></div>
+              <div className={styles.yourEmail}><input type="texte" className={styles.input1} placeholder="email" ></input></div>
             </div>
-            <div className={styles.subject}><input type="texte" placeholder="Sujet"></input></div>
+            <div className={styles.subject}><input type="texte" className={styles.input1} placeholder="Sujet" ></input></div>
             <div className={styles.message}><textarea name="message" rows="10" cols="152" placeholder="Message"></textarea></div>
             <div className={styles.div48}>
               <div className={styles.submit}><h className={styles.hadour}>Soumettre</h></div>
@@ -491,7 +493,7 @@ const Body = () => {
                     <div className={styles.aplicationsBeforeFrontEndOrtalsVisualizeFrontEnd}>
                       Les applications avant les ortals front-end <br />visualisent le front-end
                     </div>
-                    <div className={styles.yourEmail2}>Email</div>
+                    <div className={styles.yourEmail2}> <input type="text" className={styles.emailFooter} placeholder="Email" ></input></div>
                     <div className={styles.subscribe}>S'abonner</div>
                   </div>
                 </div>
