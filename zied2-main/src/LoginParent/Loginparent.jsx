@@ -2,6 +2,7 @@ import React from "react";
 import styles from './Loginparent.module.css';
 import SocialLoginButton from './SocialLoginButton';
 import imageloginparent from './imageloginparent.png'
+import { useNavigate } from 'react-router-dom';
 const socialLoginButtons = [
     { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/9d63e7923a38063e969e9070c06bbfc5b5e453eeacb1f26cbf2553a26c56a104?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b", alt: "Facebook login" },
     { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/8ed7181d41faa2d3acdc172df44ced1ee099536383b7168b2812bda7e17f5f13?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b", alt: "Google login" },
@@ -9,13 +10,19 @@ const socialLoginButtons = [
 ];
 
 function Loginparent() {
+    const navigate = useNavigate();
+
+    function handleLogin(event) {
+        event.preventDefault(); // Empêche la soumission par défaut du formulaire
+        navigate('/AccountsPage'); // Redirige vers la page AccountsPage
+    }
     return (
         <main className={styles.loginContainer}>
             <section className={styles.loginContent}>
                 <div className={styles.loginCard}>
                     <div className={styles.logoContainer}>
                         <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/73867cab63437c48df0f71fa6d7bd8050ff2a302aef007bf132fed439d456c74?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b" className={styles.logo} alt="Company logo" />
-                        <form className={styles.formContainer}>
+                        <form className={styles.formContainer} onSubmit={handleLogin}>
                             <p className={styles.welcomeText}>Content de te revoir !!!</p>
                             <h1 className={styles.loginTitle}>Se connecter</h1>
                             <label htmlFor="email" className={styles.inputLabel}>Email</label>

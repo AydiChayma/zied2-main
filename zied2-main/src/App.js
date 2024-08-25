@@ -5,6 +5,7 @@ import Loginteacher from './LoginTeacher/Loginteacher'
 import WhoAreYou from './WhoAreYou/WhoAreYou'
 
 import Body from './LandingPage/Body'
+import AccountsPage from './AddChild/AccountsPage';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Route path="/WhoAreYou" element={<WhoAreYou />} />
               <Route path="/Loginteacher" element={<Loginteacher />} />
               <Route path="/Loginparent" element={<Loginparent />} />
+              <Route path="/AccountsPage" element={<AccountsPage />} />
             </Routes>
           </div>
         </div>

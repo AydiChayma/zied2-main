@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #ffebb5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.logo {
+    aspect-ratio: 3.39;
+    object-fit: contain;
+    object-position: center;
+    width: 190px;
+    max-width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -30px;
+}
+
+.nav li {
+    padding: 15px 0;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+    font: 400 16px/1 Poppins, sans-serif;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.nav li:hover {
+    color: #3C652F;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-top: auto;
+    /* Assure que le bouton est en bas de la barre latérale */
+    background-color: #3C652F;
+    /* Couleur de fond du bouton */
+    color: white;
+    /* Couleur du texte et de l'icône */
+    border: none;
+    border-radius: 8px;
+    /* Coins arrondis */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.logout:hover {
+    background-color: #294a1f;
+    /* Couleur au survol */
+}
+
+.logout svg {
+    margin-right: 10px;
+    /* Espace entre l'icône et le texte */
+    font-size: 20px;
+    /* Taille de l'icône */
+}
+
+
+.mainContent {
+    flex: 1;
+    padding: 40px;
+    background-color: #FBFAF4;
+    border-radius: 90px;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.pageTitle {
+    font: 400 50px Poppins, sans-serif;
+    color: #4AA3DF;
+    margin: 0;
+    text-align: center;
+    margin-top: 170px;
+    font-weight: 900;
+}
+
+.accounts {
+    display: flex;
+    justify-content: flex-start;
+    /* Alignement au début */
+    align-items: center;
+    margin-top: 90px;
+    gap: 130px;
+    margin-left: 40px;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: 400 16px Poppins, sans-serif;
+
+}
+
+.accountIcon {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.addProfileIcon {
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.profileSidebar {
+    width: 20%;
+    background-color: #fff3cd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.profile p {
+    font-size: 18px;
+    color: #333;
+    font: 400 28px Poppins, sans-serif;
+    margin-top: -20px;
+
+}
+
+hr {
+    border: none;
+    /* Enlève la bordure par défaut */
+    border-top: 1px solid #979CA5;
+    ;
+    /* Crée une ligne horizontale fine */
+    margin: 10px 0;
+    /* Espacement vertical */
+    width: 95%;
+    /* Ajuste la largeur de la ligne */
+    margin-left: auto;
+    margin-right: auto;
+    /* Centre la ligne horizontalement */
+    margin-top: 20px;
+}
+
+.reminders {
+    width: 100%;
+}
+
+.reminders h2 {
+    font-size: 22px;
+    color: #121212;
+    margin-bottom: 15px;
+    text-align: left;
+    font: 400 20px Poppins, sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 13px;
+
+}
+
+.reminder {
+    display: flex;
+    align-items: center;
+    background-color: #F7F7F7;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 240px;
+    margin-left: 15px;
+}
+
+.reminderIcon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.reminderText p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.reminderText small {
+    color: #6c757d;
+}
