@@ -13,7 +13,7 @@ const Header = () => {
         <div className={styles.div}>
           <div className={styles.div2}>
             <div className={styles.home}>Acceuil</div>
-            <div className={styles.aboutUs}>À propos</div>
+            <div className={styles.aboutUs}>A propos</div>
             <div className={styles.ourClub}>Nos clubs</div>
             <div className={styles.gallery}>Gallerie</div>
             <div className={styles.contact}>Contact</div>

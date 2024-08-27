@@ -21,8 +21,14 @@ function Loginparent() {
             <section className={styles.loginContent}>
                 <div className={styles.loginCard}>
                     <div className={styles.logoContainer}>
-                        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/73867cab63437c48df0f71fa6d7bd8050ff2a302aef007bf132fed439d456c74?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b" className={styles.logo} alt="Company logo" />
-                        <form className={styles.formContainer} onSubmit={handleLogin}>
+                        <div className={styles.head1}>
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/73867cab63437c48df0f71fa6d7bd8050ff2a302aef007bf132fed439d456c74?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b" className={styles.logo} alt="Company logo" />
+                            <button className={styles.maisonButton}>
+
+                                <span className={styles.icon}><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5563369ab61a09a488fe759e5e5e2becaf093a9779c631ba570c0e8c305188d?placeholderIfAbsent=true&apiKey=875c657f39b24f02b57f3f224a6dff5b" alt="" /></span>
+                                <a href="/"><span className={styles.text}>maison</span></a>
+                            </button>
+                        </div>                        <form className={styles.formContainer} onSubmit={handleLogin}>
                             <p className={styles.welcomeText}>Content de te revoir !!!</p>
                             <h1 className={styles.loginTitle}>Se connecter</h1>
                             <label htmlFor="email" className={styles.inputLabel}>Email</label>
@@ -64,7 +70,7 @@ function Loginparent() {
                             </button>
                             <div className={styles.signupPrompt}>
                                 <p className={styles.signupText}>Vous n'avez pas encore de compte ?</p>
-                                <a href="#" className={styles.signupLink}>Inscrivez-vous gratuitement</a>
+                                <a href="Signup" className={styles.signupLink}>Inscrivez-vous gratuitement</a>
                             </div>
                         </form>
                     </div>

@@ -4,7 +4,7 @@ import NavLink from './NavLink';
 import SocialIcon from './SocialIcon';
 import Option from './Option';
 import headimg from './Group 1.png'
-const navItems = ['Acceuil', 'À propos', 'Nos clubs', 'Gallerie', 'Contact'];
+const navItems = ['Acceuil', 'A propos', 'Nos clubs', 'Gallerie', 'Contact'];
 const socialIcons = [
     { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/5528ccaf9b2edf446ab60a2b9c05e691286d8b8afdb1c36622f795182e664d6c?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b", alt: "Social icon 1" },
     { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/6bf4be93f19a2001621a2355c4a94a4a71d49b4b43bf937814f026f6467ec605?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b", alt: "Social icon 2" }

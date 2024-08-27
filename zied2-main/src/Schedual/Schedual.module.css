@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #ffebb5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.logo {
+    aspect-ratio: 3.39;
+    object-fit: contain;
+    object-position: center;
+    width: 190px;
+    max-width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -30px;
+}
+
+.nav li {
+    padding: 15px 0;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+    font: 400 16px/1 Poppins, sans-serif;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.nav li:hover {
+    color: #3C652F;
+}
+
+li .schedule {
+    color: #3C652F;
+
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-top: auto;
+    /* Assure que le bouton est en bas de la barre latérale */
+    background-color: #3C652F;
+    /* Couleur de fond du bouton */
+    color: white;
+    /* Couleur du texte et de l'icône */
+    border: none;
+    border-radius: 8px;
+    /* Coins arrondis */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.logout:hover {
+    background-color: #294a1f;
+    /* Couleur au survol */
+}
+
+.logout svg {
+    margin-right: 10px;
+    /* Espace entre l'icône et le texte */
+    font-size: 20px;
+    /* Taille de l'icône */
+}
+
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    font: 400 34px/1 Poppins, sans-serif;
+
+}
+
+header p {
+    font-size: 16px;
+    color: #777;
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-top: -65px;
+    margin-bottom: 30px;
+}
+
+.card0 {
+    background-color: #4AA3DF;
+    padding: 20px;
+    border-radius: 30px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    height: 88px;
+}
+
+.card1 {
+    background-color: #FF66B2;
+    padding: 20px;
+    border-radius: 30px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card2 {
+    background-color: #5AD78F;
+    padding: 20px;
+    border-radius: 30px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card0 h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+    font: 400 18px/1 Poppins, sans-serif;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.card0 p {
+    color: #f9f9f9;
+    font: 400 14px/1 Poppins, sans-serif;
+
+}
+
+.card1 h3 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+    font: 400 18px/1 Poppins, sans-serif;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.card1 p {
+    color: #f9f9f9;
+    font: 400 14px/1 Poppins, sans-serif;
+}
+
+.card2 h3 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+    font: 400 18px/1 Poppins, sans-serif;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.card2 p {
+    color: #f9f9f9;
+    font: 400 14px/1 Poppins, sans-serif;
+}
+
+.tasks {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px
+}
+
+.tasks h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font: 400 26px/1 Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.tasks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tasks li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    font: 400 15px/1 Poppins, sans-serif;
+    height: 13%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.phrase {
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.checkbox {
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+/* Optionnel : styliser la case cochée */
+.checkbox:checked {
+    background-color: #00bfff;
+    border-color: #00bfff;
+}
+
+.image {
+    aspect-ratio: 0.79;
+    object-fit: contain;
+    object-position: center;
+    width: 60%;
+    max-width: 300px;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+
+.div1 {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.calendar {
+    border-radius: 100px 0 0 100px;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    padding: 106px 44px 180px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.calendarTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.profileImage {
+    aspect-ratio: 1.03;
+    object-fit: contain;
+    object-position: center;
+    width: 38px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.header1 {
+    display: flex;
+    gap: 90px;
+    margin-top: -10px;
+}
+
+.calendarList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.calendarItem {
+    margin-bottom: 20px;
+}
+
+.date {
+    font-weight: bold;
+    color: #666;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.taskType {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blue {
+    color: #4AA3DF;
+}
+
+.orange {
+    color: #FF66B2;
+}
+
+/* Style des points verticaux */
+.event::before {
+    content: '';
+    width: 3px;
+    height: 20px;
+    background-color: currentColor;
+    margin-right: 10px;
+}

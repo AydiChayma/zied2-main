@@ -17,24 +17,24 @@ function AccountsPage() {
                 </div>
                 <nav className={styles.nav}>
                     <ul>
-                        <li><FontAwesomeIcon icon={faThLarge} /> Overview</li>
-                        <li><FontAwesomeIcon icon={faCalendarAlt} /> Schedule</li>
-                        <li><FontAwesomeIcon icon={faCreditCard} /> Payments</li>
-                        <li><FontAwesomeIcon icon={faUserFriends} /> Number of children</li>
-                        <li><FontAwesomeIcon icon={faFolder} /> Courses</li>
-                        <li><FontAwesomeIcon icon={faCog} /> Settings</li>
-                        <li><FontAwesomeIcon icon={faPlusCircle} /> Add clubs</li>
+                        <li> <div className={styles.Overview}><FontAwesomeIcon icon={faThLarge} /> Aperçu</div></li>
+                        <a href="Schedual"><li><FontAwesomeIcon icon={faCalendarAlt} /> Calendrier</li></a>
+                        <li><FontAwesomeIcon icon={faCreditCard} /> Paiements</li>
+                        <li><FontAwesomeIcon icon={faUserFriends} /> Nombre d'enfants</li>
+                        <li><FontAwesomeIcon icon={faFolder} /> Cours</li>
+                        <li><FontAwesomeIcon icon={faCog} /> Paramètres</li>
+                        <li><FontAwesomeIcon icon={faPlusCircle} /> Ajouter des clubs</li>
                         <li><FontAwesomeIcon icon={faRobot} /> Robot</li>
                     </ul>
                 </nav>
                 <button className={styles.logout}>
                     <FontAwesomeIcon icon={faSignOutAlt} />
-                    <span>Log out</span>
+                    <span>Se déconnecter</span>
                 </button>
             </aside>
             <main className={styles.mainContent}>
                 <header className={styles.headerContainer}>
-                    <h1 className={styles.pageTitle}>Accounts</h1>
+                    <h1 className={styles.pageTitle}>Comptes</h1>
                 </header>
                 <section className={styles.accounts}>
                     <div className={styles.account}>
@@ -47,7 +47,7 @@ function AccountsPage() {
                     </div>
                     <div className={styles.account}>
                         <div className={styles.addProfileIcon}>+</div>
-                        <p>Add profile</p>
+                        <p>Ajouter un profil</p>
                     </div>
                 </section>
             </main>
@@ -58,18 +58,18 @@ function AccountsPage() {
                 </div>
                 <hr />
                 <div className={styles.reminders}>
-                    <h2>Reminders</h2>
+                    <h2>Rappels</h2>
                     <div className={styles.reminder}>
                         <span className={styles.reminderIcon}>🔔</span>
                         <div className={styles.reminderText}>
-                            <p>Workshop</p>
+                            <p>Atelier</p>
                             <small>10:00 AM - 12:00 PM</small>
                         </div>
                     </div>
                     <div className={styles.reminder}>
                         <span className={styles.reminderIcon}>📝</span>
                         <div className={styles.reminderText}>
-                            <p>Homework</p>
+                            <p>Devoirs</p>
                             <small>02:00 PM - 04:00 PM</small>
                         </div>
                     </div>

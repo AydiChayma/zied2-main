@@ -45,6 +45,10 @@
     color: #3C652F;
 }
 
+.Overview {
+    color: #3C652F;
+}
+
 .logout {
     display: flex;
     align-items: center;
@@ -96,8 +100,9 @@
     color: #4AA3DF;
     margin: 0;
     text-align: center;
-    margin-top: 170px;
+    margin-top: 70px;
     font-weight: 900;
+    margin-left: 250px
 }
 
 .accounts {
