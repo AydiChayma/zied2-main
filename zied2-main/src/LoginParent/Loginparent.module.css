@@ -154,7 +154,7 @@ a {
 .loginTitle {
     color: #ff66b2;
     align-self: start;
-    margin-top: 3px;
+    margin-top: 10px;
     font: 600 48px Poppins, sans-serif;
     margin-left: 40px;
 }
@@ -163,6 +163,11 @@ a {
     .loginTitle {
         font-size: 40px;
     }
+}
+
+.formulaire {
+    margin-top: 70px;
+    width: 87.5%;
 }
 
 .inputLabel {
@@ -281,7 +286,7 @@ input[type="password"] {
     gap: 16px;
     color: #fff;
     white-space: nowrap;
-    margin: 25px 0 0 35px;
+    margin: 25px 0 0 160px;
     padding: 8px 28px;
     font: 600 16px Poppins, sans-serif;
     padding-top: 13px;
@@ -314,7 +319,7 @@ input[type="password"] {
     justify-content: center;
     padding: 13px 70px;
     border: 1px solid #6096b4;
-    margin-left: 55px;
+    margin-left: 95px;
 }
 
 .buttonContent {
@@ -398,7 +403,7 @@ input[type="password"] {
     gap: 15px;
     font: 400 14px Nunito, sans-serif;
     padding-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 51px;
 }
 
 .signupText {

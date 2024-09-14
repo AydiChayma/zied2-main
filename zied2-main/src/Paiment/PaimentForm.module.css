@@ -1,0 +1,126 @@
+.paymentForm {
+    width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    margin-top: -120px;
+}
+
+.paymentMethods {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.paymentMethod {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.active {
+    border-color: #1e90ff;
+    background-color: #e6f7ff;
+}
+
+.cardInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.inputField1 {
+    position: relative;
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+
+.cardIcons {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    margin-left: 850px;
+}
+
+.cardIcons img {
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.halfWidth {
+    width: 48%;
+}
+
+.totalLabel {
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font: 400 24px Salsa, sans-serif;
+    margin-left: -30px;
+}
+
+.totalAmount {
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font: 400 24px Salsa, sans-serif;
+    margin-left: 100px;
+}
+
+.totalBtn {
+    width: 35%;
+    padding: 15px;
+    background-color: #F69A9A;
+    color: #F69A9A;
+    border: none;
+    border-radius: 8px;
+}
+
+.confirmBtn {
+    width: 61%;
+    padding: 15px;
+    background-color: #49BBBD;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-shadow: 0 4px 4px rgba(255, 252, 252, 0.25);
+    font: 400 24px Salsa, sans-serif;
+}
+
+.confirmBtn:hover {
+    background-color: #0f9496;
+}

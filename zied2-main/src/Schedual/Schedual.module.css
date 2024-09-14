@@ -114,6 +114,10 @@ header p {
     color: #777;
 }
 
+.head1 p {
+    margin-top: 40px;
+}
+
 .cards {
     display: flex;
     justify-content: flex-start;

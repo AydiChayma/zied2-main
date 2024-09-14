@@ -105,6 +105,10 @@
     margin-left: 250px
 }
 
+a {
+    text-decoration: none;
+}
+
 .accounts {
     display: flex;
     justify-content: flex-start;

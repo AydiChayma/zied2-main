@@ -28,9 +28,9 @@ function Signup() {
                             <input id="num" type="number" className={styles.inputField} placeholder="Entrer votre numéro" />
                             <label htmlFor="email" className={styles.inputLabel}>Email<span style={{ color: 'red', fontSize: '15px' }}>*</span></label>
                             <input id="email" type="email" className={styles.inputField} placeholder="login@gmail.com" />
-                            <Link to="/signupkid">
+                            <Link to="/AccountsPage">
                                 <button className={styles.loginButton}>
-                                    <span>Suivant</span>
+                                    <span>Terminer</span>
                                     <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/341a431dc0c3386fbe612a883c480c68b40820449b2d2d831a927c6e1b3772de?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b" className={styles.loginIcon} alt="" />
                                 </button></Link>
                         </form>

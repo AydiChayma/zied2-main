@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa:wght@400;700&display=swap');
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #ffebb5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.logo {
+    aspect-ratio: 3.39;
+    object-fit: contain;
+    object-position: center;
+    width: 190px;
+    max-width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -30px;
+}
+
+.nav li {
+    padding: 15px 0;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+    font: 400 16px/1 Poppins, sans-serif;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.nav li:hover {
+    color: #3C652F;
+}
+
+.Paiment {
+    color: #3C652F;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-top: auto;
+    /* Assure que le bouton est en bas de la barre latérale */
+    background-color: #3C652F;
+    /* Couleur de fond du bouton */
+    color: white;
+    /* Couleur du texte et de l'icône */
+    border: none;
+    border-radius: 8px;
+    /* Coins arrondis */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.logout:hover {
+    background-color: #294a1f;
+    /* Couleur au survol */
+}
+
+.logout svg {
+    margin-right: 10px;
+    /* Espace entre l'icône et le texte */
+    font-size: 20px;
+    /* Taille de l'icône */
+}
+
+
+.mainContent {
+    flex: 1;
+    padding: 40px;
+    background-color: #FBFAF4;
+    border-radius: 90px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 110px;
+}
+
+.titre {
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 319px;
+    font: 400 48px Salsa, sans-serif;
+    margin-left: 40px;
+}
+
+.inputLabel {
+    color: #000;
+    align-self: start;
+    font: 300 16px Poppins, sans-serif;
+    margin-left: 40px;
+}
+
+@media (max-width: 991px) {
+    .inputLabel {
+        margin-top: 200px;
+    }
+}
+
+.inputField {
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: rgba(74, 163, 223, 0.6);
+    margin-top: 7px;
+    color: #000;
+    white-space: nowrap;
+    padding: 8px 11px;
+    width: 405px;
+    font: 400 14px Poppins, sans-serif;
+    margin-left: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .inputField {
+        max-width: 100%;
+        padding-right: 20px;
+        white-space: initial;
+        margin-left: 40px;
+    }
+}
+
+.childselection {
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: rgba(74, 163, 223, 0.6);
+    margin-top: 7px;
+    color: #000;
+    white-space: nowrap;
+    padding: 9px 11px;
+    width: 408px;
+    font: 400 14px Poppins, sans-serif;
+    margin-left: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.childselection input[type="radio"] {
+    display: none;
+}
+
+.childselection label {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 60px;
+    gap: 0px;
+}
+
+.childselection input[type="radio"]:checked+label {
+    background-color: #fff;
+    color: #A8D0E6;
+    border: 1px solid #A8D0E6;
+}
+
+.Button {
+    border-radius: 13px;
+    border-color: transparent;
+    background-color: #ff66b2;
+    align-self: center;
+    display: flex;
+    width: 140px;
+    max-width: 100%;
+    gap: 16px;
+    color: #fff;
+    white-space: nowrap;
+    margin: 10px 0 0 265px;
+    padding: 8px 28px;
+    font-family: 'Salsa', cursive;
+    font-size: 16px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 335px;
+}
+
+.facture {
+    background-image: url("D:\zied2-main\zied2-main\src\Paiment\Component 8.png");
+    position: relative;
+    width: 35%;
+    margin-top: -70px;
+    background-size: 90% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titre2 {
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 319px;
+    font: 400 38px Salsa, sans-serif;
+    text-align: center;
+    margin-left: 43px;
+    margin-top: 200px;
+}
+
+.container2 {
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    max-width: 243px;
+    flex-direction: column;
+    color: rgba(91, 91, 91, 1);
+    letter-spacing: 0.4px;
+    padding: 22px 11px 12px;
+    font: 600 20px/36px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-left: 63px;
+    margin-top: -50px;
+}
+
+.phrase {
+    display: flex;
+    gap: 30px;
+}
+
+.container3 {
+    display: flex;
+    max-width: 243px;
+    flex-direction: column;
+    color: rgba(91, 91, 91, 1);
+    letter-spacing: 0.4px;
+    padding: 22px 11px 12px;
+    font: 600 20px/36px Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+    margin-left: 63px;
+    margin-top: 20px;
+}
+
+.phrase3 {
+    display: flex;
+    gap: 90px;
+}

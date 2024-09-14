@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.clubCard {
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 4px solid #ffc909;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    /* Ensure positioning context for the overlay */
+    overflow: hidden;
+    /* Hide overflow content */
+    transition: transform 0.3s ease;
+    /* Optional: Adds a slight zoom effect */
+    cursor: pointer;
+}
+
+.clubCard:hover {
+    transform: scale(1.05);
+    /* Slight zoom on hover */
+}
+
+.clubImage {
+    width: 214px;
+    border-radius: 8px;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+.clubName {
+    margin-top: 11px;
+    font: 400 16px Salsa, sans-serif;
+    letter-spacing: 0.48px;
+    color: #000;
+    z-index: 2;
+    /* Ensure it's above the hover overlay */
+}
+
+/* Hidden details box */
+.clubDetails {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(6, 143, 216, 0.7);
+    /* Semi-transparent gray background */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0;
+    /* Start hidden */
+    transition: opacity 0.3s ease;
+    /* Smooth fade in */
+}
+
+/* Show the details on hover */
+.clubCard:hover .clubDetails {
+    opacity: 1;
+}
+
+@media (max-width: 991px) {
+    .clubCard {
+        margin-top: 40px;
+    }
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #FFCB7C;
+    font-family: Poppins, regular;
+    margin-top: -10px;
+}
+
+.description {
+    font-size: 14px;
+    letter-spacing: 0.48px;
+    align-self: stretch;
+    margin-top: -18px;
+    font-family: Poppins, regular;
+
+}
+
+.ageLabel {
+    font-size: 13px;
+    letter-spacing: 0.45px;
+    text-align: center;
+    font-family: Poppins, regular;
+    color: #FFCB7C;
+}
+
+.ageRange {
+    font-size: 13px;
+    letter-spacing: 0.45px;
+    text-align: center;
+    font-family: Poppins, regular;
+}

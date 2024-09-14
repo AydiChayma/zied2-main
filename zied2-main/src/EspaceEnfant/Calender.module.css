@@ -1,0 +1,63 @@
+.calendarPage {
+    background-color: #4aa3df;
+    display: flex;
+    overflow: hidden;
+}
+
+.mainContent {
+    background-color: #EDCA97;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageHeader {
+    padding-top: 30px;
+    justify-content: center;
+    margin-left: -130px;
+
+}
+
+.pageTitle {
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 109px;
+    font: 400 48px Salsa, sans-serif;
+    text-shadow:
+        1px 1px 0 #A67327,
+        -1px -1px 0 #A67327,
+        2px -2px 0 #A67327,
+        -2px 2px 0 #A67327,
+        2px 0 0 #A67327,
+        -2px 0 0 #A67327,
+        0 2px 0 #A67327,
+        0 -2px 0 #A67327;
+}
+
+.contentWrapper {
+    display: flex;
+    margin-top: 14px;
+    padding-left: 49px;
+    flex-direction: column;
+}
+
+@media (max-width: 991px) {
+    .calendarPage {
+        flex-direction: column;
+    }
+
+    .pageTitle {
+        font-size: 40px;
+    }
+
+    .contentWrapper {
+        padding-left: 20px;
+    }
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}

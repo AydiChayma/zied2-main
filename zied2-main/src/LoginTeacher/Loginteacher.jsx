@@ -19,48 +19,53 @@ function Loginteacher() {
                                 <a href="/"><span className={styles.text}>maison</span></a>
                             </button>
                         </div>                        <form className={styles.formContainer}>
-                            <p className={styles.welcomeText}>Content de te revoir !!!</p>
-                            <h1 className={styles.loginTitle}>Se connecter</h1>
-                            <label htmlFor="email" className={styles.inputLabel}>Email</label>
-                            <input id="email" type="email" className={styles.inputField} placeholder="login@gmail.com" />
-                            <div className={styles.passwordContainer}>
-                                <label htmlFor="password" className={styles.passwordLabel}>Mot de passe</label>
-                                <a href="#" className={styles.forgotPassword}>Mot de passe oublié ?</a>
+
+                            <div className={styles.lestitres}>
+                                <p className={styles.welcomeText}>Content de te revoir !!!</p>
+                                <h1 className={styles.loginTitle}>Se connecter</h1>
                             </div>
-                            <div className={styles.passwordField}>
-                                <input id="password" type="password" placeholder="**************" />
-                            </div>
-                            <button type="submit" className={styles.loginButton}>
-                                <span>SE CONNECTER</span>
-                                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/341a431dc0c3386fbe612a883c480c68b40820449b2d2d831a927c6e1b3772de?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b" className={styles.loginIcon} alt="" />
-                            </button>
-                            <div className={styles.ou}>
-                                <hr className={styles.horizontalLine} />
-                                <p className={styles.alternativeLogin}>ou</p>
-                                <hr className={styles.horizontalLine} />
-                            </div>
-                            <button className={styles.button}>
-                                <div className={styles.buttonContent}>
-                                    <div className={styles.iconWrapper}>
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/faae240c32391bc94caca88fa3d665d94c6c1331c9f6ce9f6b3459231a79eba2?placeholderIfAbsent=true&apiKey=875c657f39b24f02b57f3f224a6dff5b"
-                                            className={styles.iconBackground}
-                                            alt=""
-                                        />
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7d0310fed65b9eb3ee4a21a574feefe46385a72011c190957c88f25b162c2ce9?placeholderIfAbsent=true&apiKey=875c657f39b24f02b57f3f224a6dff5b"
-                                            className={styles.googleIcon}
-                                            alt="Google logo"
-                                        />
-                                    </div>
-                                    <span className={styles.buttonText}>Continuer avec Google</span>
+                            <div className={styles.formulaire}>
+                                <label htmlFor="email" className={styles.inputLabel}>Email</label>
+                                <input id="email" type="email" className={styles.inputField} placeholder="login@gmail.com" />
+                                <div className={styles.passwordContainer}>
+                                    <label htmlFor="password" className={styles.passwordLabel}>Mot de passe</label>
+                                    <a href="#" className={styles.forgotPassword}>Mot de passe oublié ?</a>
                                 </div>
-                            </button>
-                            <div className={styles.signupPrompt}>
-                                <p className={styles.signupText}>Vous n'avez pas encore de compte ?</p>
-                                <a href="Signupteacher" className={styles.signupLink}>Inscrivez-vous gratuitement</a>
+                                <div className={styles.passwordField}>
+                                    <input id="password" type="password" placeholder="**************" />
+                                </div>
+                                <button type="submit" className={styles.loginButton}>
+                                    <span>SE CONNECTER</span>
+                                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/341a431dc0c3386fbe612a883c480c68b40820449b2d2d831a927c6e1b3772de?apiKey=875c657f39b24f02b57f3f224a6dff5b&&apiKey=875c657f39b24f02b57f3f224a6dff5b" className={styles.loginIcon} alt="" />
+                                </button>
+                                <div className={styles.ou}>
+                                    <hr className={styles.horizontalLine} />
+                                    <p className={styles.alternativeLogin}>ou</p>
+                                    <hr className={styles.horizontalLine} />
+                                </div>
+                                <button className={styles.button}>
+                                    <div className={styles.buttonContent}>
+                                        <div className={styles.iconWrapper}>
+                                            <img
+                                                loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/faae240c32391bc94caca88fa3d665d94c6c1331c9f6ce9f6b3459231a79eba2?placeholderIfAbsent=true&apiKey=875c657f39b24f02b57f3f224a6dff5b"
+                                                className={styles.iconBackground}
+                                                alt=""
+                                            />
+                                            <img
+                                                loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/7d0310fed65b9eb3ee4a21a574feefe46385a72011c190957c88f25b162c2ce9?placeholderIfAbsent=true&apiKey=875c657f39b24f02b57f3f224a6dff5b"
+                                                className={styles.googleIcon}
+                                                alt="Google logo"
+                                            />
+                                        </div>
+                                        <span className={styles.buttonText}>Continuer avec Google</span>
+                                    </div>
+                                </button>
+                                <div className={styles.signupPrompt}>
+                                    <p className={styles.signupText}>Vous n'avez pas encore de compte ?</p>
+                                    <a href="Signupteacher" className={styles.signupLink}>Inscrivez-vous gratuitement</a>
+                                </div>
                             </div>
                         </form>
                     </div>

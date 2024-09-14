@@ -18,12 +18,11 @@ function Dashboard() {
                     <ul>
                         <a href="AccountsPage"><li><FontAwesomeIcon icon={faThLarge} /> Aperçu</li></a>
                         <li ><div className={styles.schedule}><FontAwesomeIcon icon={faCalendarAlt} /> Calendrier</div></li>
-                        <li><FontAwesomeIcon icon={faCreditCard} /> Paiements</li>
-                        <li><FontAwesomeIcon icon={faUserFriends} /> Nombre d'enfants</li>
-                        <li><FontAwesomeIcon icon={faFolder} /> Cours</li>
-                        <li><FontAwesomeIcon icon={faCog} /> Paramètres</li>
-                        <li><FontAwesomeIcon icon={faPlusCircle} /> Ajouter des clubs</li>
-                        <li><FontAwesomeIcon icon={faRobot} /> Robot</li>
+                        <a href="Paiment"><li><FontAwesomeIcon icon={faCreditCard} /> Paiements</li></a>
+                        <a href="Cours"><li><FontAwesomeIcon icon={faFolder} /> Cours</li></a>
+                        <a href='Parametre'><li><FontAwesomeIcon icon={faCog} /> Paramètres</li></a>
+                        <a href='DecouvrirClub'><li><FontAwesomeIcon icon={faPlusCircle} /> Découvrir les clubs</li></a>
+                        <a href='Robot'><li><FontAwesomeIcon icon={faRobot} /> Ajouter Robot</li></a>
                     </ul>
                 </nav>
                 <button className={styles.logout}>
@@ -33,7 +32,7 @@ function Dashboard() {
             </aside>
             <main className={styles['main-content']}>
                 <header>
-                    <div>
+                    <div className={styles.head1}>
                         <h1>Bonjour Ahsan</h1>
                         <p>Aujourd'hui, nous sommes le lundi 07 avril 2023</p>
                     </div>
